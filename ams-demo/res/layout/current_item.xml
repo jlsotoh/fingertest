@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+    android:id="@+id/current_result">
+
+    <ImageView
+        android:id="@+id/current_channel_cover"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter" 
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/cover"
+        android:layout_alignParentTop="true"/>
+	
+    <LinearLayout
+        android:id="@+id/metadata"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/current_channel_cover"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="#88000000">
+		
+	    <TextView
+	        android:id="@+id/current_title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textStyle="bold" />
+		
+	    <TextView
+	        android:id="@+id/current_tag_time"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:singleLine="true"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+                
+    </LinearLayout>
+</RelativeLayout>

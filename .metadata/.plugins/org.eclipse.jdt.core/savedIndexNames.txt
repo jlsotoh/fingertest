@@ -1,0 +1,9 @@
+INDEX VERSION 1.127+/Users/soto/mufin/.metadata/.plugins/org.eclipse.jdt.core
+908416209.index
+1255799026.index
+1432525120.index
+375758688.index
+546501215.index
+3256965360.index
+3559245568.index
+3778303335.index

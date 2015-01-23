@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ams-demo</string>
+    <string name="button_start">Start recording</string>
+    <string name="button_stop">Stop recording</string>
+    <string name="cover">Cover</string>
+    <string name="searching">searching</string>
+    
+    <string name="colon">:</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    
+    <string name="rears_error_text">Error occurred during identification.</string>
+    <string name="audio_recording_error_text">Error initializing audio record device.</string>
+</resources>
